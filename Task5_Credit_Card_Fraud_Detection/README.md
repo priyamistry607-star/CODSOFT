@@ -22,17 +22,23 @@ The dataset contains anonymized transaction features obtained through PCA transf
 
 ## Dataset
 
-The dataset contains the following features:
+The dataset used for this project is large (approximately 150 MB), so it is not uploaded directly to this GitHub repository.
 
-* **Time** – Time elapsed between transactions
-* **V1 – V28** – PCA transformed features to protect sensitive information
-* **Amount** – Transaction amount
-* **Class** – Target variable
+You can download the dataset from Kaggle using the following link:
 
-  * 0 → Genuine Transaction
-  * 1 → Fraudulent Transaction
+Credit Card Fraud Detection Dataset:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-The dataset is **highly imbalanced**, meaning that genuine transactions are much more common than fraudulent ones.
+After downloading the dataset, place the **creditcard.csv** file inside the project folder before running the code.
+
+The dataset contains anonymized credit card transaction data including features such as:
+
+* Time
+* V1 – V28 (PCA transformed features)
+* Amount
+* Class (0 = Genuine transaction, 1 = Fraudulent transaction)
+
+This dataset is widely used in machine learning projects for detecting fraudulent transactions.
 
 ---
 
